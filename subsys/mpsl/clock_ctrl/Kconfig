@@ -1,0 +1,17 @@
+#
+# Copyright (c) 2024 Nordic Semiconductor ASA
+#
+# SPDX-License-Identifier: LicenseRef-Nordic-5-Clause
+#
+
+# Add here configuration that aneabled right integration based in target platform:
+# - for 52/53/54L use regular nrf clock control
+# - for 54HX/9230 use nrf clock control 2 (new one)
+
+# config MPSL_USE_ZEPHYR_PM
+# 	bool "Use Zephyr's Power Management API"
+# 	depends on SOC_SERIES_NRF54HX
+# 	depends on MPSL
+# 	depends on PM
+# 	help
+# 	  This option configures MPSL to use Zephyr's Power Management.
